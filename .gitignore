@@ -20,5 +20,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/public/SmallLogo.jpg
-/public/SmallLogo.png
+# images
+/src/img
