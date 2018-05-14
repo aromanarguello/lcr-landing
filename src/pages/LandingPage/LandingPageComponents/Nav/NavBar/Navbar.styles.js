@@ -6,7 +6,8 @@ export const styles = {
         alignSelf: 'flex-end',
         backgroundColor: '#5397E2',
         color: 'white',
-        fontSize: '15px'
+        fontSize: '15px',
+        justifyContent: 'space-between'
     },
 
     navLinks: {

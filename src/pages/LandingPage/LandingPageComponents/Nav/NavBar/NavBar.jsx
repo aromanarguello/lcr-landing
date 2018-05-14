@@ -1,5 +1,6 @@
 import React from 'react'
 import { styles } from './Navbar.styles'
+import NavBarButton from '../../Buttons/NavButton'
 
 const NavBar = () => {
     return (
@@ -10,6 +11,7 @@ const NavBar = () => {
                 <li style={styles.navLinkItems}>Sucursales</li>
                 <li style={styles.navLinkItems}>Contactenos</li>
             </ul>
+            <NavBarButton />
         </div>
     )
 }
