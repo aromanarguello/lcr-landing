@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Logo from '../../../../img/SmallLogo.png'
 import { styles } from './Nav.styles'
@@ -7,18 +7,21 @@ import PhoneCard from './Cards/PhoneCard'
 import LocationIcon from './Icons/Location'
 import LocationCard from './Cards/LocationCard'
 
-const Nav = () => {
-    return (
-        <div id='headerContainer'>
-            <img src={Logo} style={styles.logo} />
-            <div id='phoneIconContainer' style={styles.phoneIconContainer}>
-                <PhoneIcon />
-                <PhoneCard />
-                <LocationIcon />
-                <PhoneCard />
-            </div>
-        </div>
-    );
-}
+class Nav extends Component {
 
+
+render() {
+        return (
+            <div id='headerContainer'>
+                <img src={Logo} style={styles.logo} />
+                <div id='phoneIconContainer' style={styles.phoneIconContainer}>
+                    <PhoneIcon />
+                    <PhoneCard />
+                    <LocationIcon />
+                    <LocationCard/>
+                </div>
+            </div>
+        );
+    }
+}
 export default Nav

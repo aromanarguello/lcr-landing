@@ -13,7 +13,9 @@ class LandingPageContainer extends Component {
     return (
       <div>
         <NavComponent />
-        <NavBarComponent />
+        <div>
+          <NavBarComponent />
+        </div>
         <BodyComponent />
       </div>
     );
