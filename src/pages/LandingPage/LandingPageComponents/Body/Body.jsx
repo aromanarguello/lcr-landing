@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Image from '../../../../img/bg-microscope.png'
-// import { styles } from './Body.styles'
+import Text from './Text'
 
 const styles = {
     bodyContainer: {
@@ -10,11 +10,15 @@ const styles = {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
+        display: 'flex',
+        alignItems: 'flex-start'
     }
 }
 const Body = () => {
     return (
-        <div id='bodyContainer' style={styles.bodyContainer}></div>
+        <div id='bodyContainer' style={styles.bodyContainer}>
+            <Text />
+        </div>
     );
 }
 

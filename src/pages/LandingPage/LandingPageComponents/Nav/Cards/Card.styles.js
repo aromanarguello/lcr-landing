@@ -13,8 +13,6 @@ export const styles = theme => ({
       borderRadius: '3px',
       textAlign: 'center',
       '&:hover': {
-        // width: '200px',
-        // height: '60px',
         transitionDuration: '0.3s',
       }
     }),

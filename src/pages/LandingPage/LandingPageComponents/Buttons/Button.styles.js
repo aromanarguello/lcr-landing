@@ -10,6 +10,6 @@ export const styles = {
         color: 'white',
         fontFamily: 'roboto',
         fontSize: '17px',
-        marginRight: '350px'
+        marginRight: '350px',
     }
 }
