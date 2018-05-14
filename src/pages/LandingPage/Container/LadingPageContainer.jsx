@@ -5,14 +5,15 @@ import classNames from 'classnames'
 import { styles } from './LandingPageContainer.styles'
 import NavComponent from '../LandingPageComponents/Nav/Nav'
 import BodyComponent from '../LandingPageComponents/Body/Body'
+import NavBarComponent from '../LandingPageComponents/Nav/NavBar/NavBar'
 
 
 class LandingPageContainer extends Component {
   render() {
-    const { props, classes, styles } = this.props
     return (
       <div>
         <NavComponent />
+        <NavBarComponent />
         <BodyComponent />
       </div>
     );

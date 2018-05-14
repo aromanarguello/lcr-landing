@@ -10,7 +10,6 @@ const styles = {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        border: '1px solid rgba(35,64,130, 0.7)',
     }
 }
 const Body = () => {

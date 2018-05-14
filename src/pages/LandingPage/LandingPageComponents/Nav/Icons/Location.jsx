@@ -5,7 +5,7 @@ import { styles } from './Icon.styles'
 
 const IconLocation = () => <Icon 
     icon={ location } 
-    size={'80px'} 
+    size={'60px'} 
     style={ styles.smartPhoneIcon }/>
 
 export default IconLocation
