@@ -6,9 +6,9 @@ export const styles = {
         height: '200px',
         fontSize: '40px',
         marginLeft: '50px',
-        marginTop: '70px',
+        alignSelf: 'center',
         paddingTop: '50px',
-        lineHeight: '120%',
+        lineHeight: '150%',
         textIndent: '50px',
         color: 'rgb(35,64,130)'
     },

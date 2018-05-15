@@ -3,7 +3,7 @@ import { styles } from './Body.styles'
 
 const BodyText = () => {
     return (
-        <p style={styles.textStyle}><i>¡Cupcake <b>ipsumdolor sit amet</b> candy marshmallow apple pie. Cake chocolate gummi bears gingerbread!</i> </p>
+        <p style={styles.textStyle}><i>¡Cupcake <b>ipsumdolor sit amet</b> candy marshmallow apple pie. Cake <b>chocolate</b> gummi bears gingerbread!</i> </p>
     )
 }
 

@@ -6,6 +6,7 @@ import { styles } from './LandingPageContainer.styles'
 import NavComponent from '../LandingPageComponents/Nav/Nav'
 import BodyComponent from '../LandingPageComponents/Body/Body'
 import NavBarComponent from '../LandingPageComponents/Nav/NavBar/NavBar'
+import FooterComponent from '../LandingPageComponents/Footer/Footer'
 
 
 class LandingPageContainer extends Component {
@@ -17,6 +18,7 @@ class LandingPageContainer extends Component {
           <NavBarComponent />
         </div>
         <BodyComponent />
+        <FooterComponent />
       </div>
     );
   }

@@ -6,6 +6,7 @@ import Text from './Text'
 const styles = {
     bodyContainer: {
         width: '100%',
+        height: '700px',
         backgroundImage: `url(${Image})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
