@@ -17,6 +17,12 @@
   justify-content: space-around;
 }
 
+#servicesContainer {
+  width: 100%;
+  height: 700px;
+  display: flex;
+}
+
 /* #footerContainer {
   width: 100%;
   height: 400px;

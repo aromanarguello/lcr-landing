@@ -15,5 +15,5 @@ export const styles = {
 
     boldStyle: {
         color: '#5BD064'
-    }
+    },
 }
