@@ -19,10 +19,17 @@
 
 #servicesContainer {
   width: 100%;
-  height: 700px;
-  display: flex;
+  height: 1000px;
 }
 
+#scheduleHeaderContainer {
+  width: 100%;
+  height: 200px;
+}
+
+h3{
+  margin: 0;
+}
 /* #footerContainer {
   width: 100%;
   height: 400px;
