@@ -1,15 +1,15 @@
 export const styles = {
     logo: {
-        marginLeft: '30px',
+        marginLeft: 130,
     },
 
     phoneIconContainer: {
-        width: '500px',
-        height: '200px',
+        width: 500,
+        height: 200,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'row',
-        marginRight: '200px'
+        marginRight: 120
     }
 }

@@ -1,13 +1,13 @@
 export const styles = {
     navBarContainer: {
         width: '100%',
-        height: '55px',
+        height: '65px',
         display: 'flex',
         alignSelf: 'flex-end',
-        backgroundColor: '#5397E2',
+        backgroundColor: 'rgba(60, 151, 232, 1)',
         color: 'white',
         fontSize: '15px',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
     },
 
     navLinks: {

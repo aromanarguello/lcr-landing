@@ -16,15 +16,15 @@ export const styles = {
       },
       text: {
         height: 'auto',
-        marginTop: 15,
-        marginBotom: 15,
+        paddingTop: 5,
+        paddingBottom: 5,
         textAlign: 'center'
       },
       root: {
         flexGrow: 1,
       },
       paper: {
-        height: 300,
+        height: 360,
         width: 300,
         marginRight: 20,
         marginLeft: 20,

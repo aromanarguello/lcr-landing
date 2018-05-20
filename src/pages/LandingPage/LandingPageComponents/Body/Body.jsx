@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Image from '../../../../img/bg-microscope.png'
+import Image from '../../../../img/dnaart.jpg'
 import Text from './Text'
 
 const styles = {
     bodyContainer: {
         width: '100%',
-        height: '800px',
+        height: '850px',
         backgroundImage: `url(${Image})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',

@@ -2,17 +2,17 @@ import React, { Component } from 'react'
 import { styles } from './Schedule.styles'
 import Header from './Header'
 import ScheduleCards from './ScheduleCards'
-import DNA from '../../../../../img/chromosomes.jpg'
+import DnaArt from '../../../../../img/dnaart.jpg'
 
-class Services extends Component {
+class Schedule extends Component {
     render() {
         const inPageStyle = {
-            backgroundImage: `url(${DNA})`,
+            backgroundImage: `url(${DnaArt})`,
             backgroundSize: 'cover',
             margin: 0
         }
         return (
-            <div id='servicesContainer'>
+            <div id='servicesContainer' >
                 <div></div>
                 <Header />
                 <ScheduleCards />
@@ -21,4 +21,4 @@ class Services extends Component {
     }
 }
 
-export default Services
+export default Schedule

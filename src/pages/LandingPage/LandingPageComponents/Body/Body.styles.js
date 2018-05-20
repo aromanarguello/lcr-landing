@@ -6,11 +6,11 @@ export const styles = {
         height: '200px',
         fontSize: '40px',
         marginLeft: '50px',
-        alignSelf: 'center',
-        paddingTop: '50px',
+        alignSelf: 'flex-start',
+        paddingTop: 150,
         lineHeight: '150%',
-        textIndent: '50px',
-        color: 'rgb(35,64,130)'
+        textIndent: 50,
+        color: 'rgba(255, 255, 255, 0.9)'
     },
 
     boldStyle: {
