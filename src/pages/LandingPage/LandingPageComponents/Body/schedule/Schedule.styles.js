@@ -7,12 +7,13 @@ export const styles = {
         margin: 0,
         fontFamily: 'roboto',
         fontSize: 50,
+        fontWeight: 300,
         color: 'rgb(35,64,130)'
     },
     typography: {
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center'
+        justifyContent: 'center',
       },
       text: {
         height: 'auto',
@@ -26,10 +27,11 @@ export const styles = {
       paper: {
         height: 360,
         width: 300,
-        marginRight: 20,
-        marginLeft: 20,
+        marginRight: 50,
+        marginLeft: 50,
         opacity: 0.9,
-        borderRadius: 5
+        borderRadius: 5,
+        fontWeight: 300
       },
       divisorBar: {
         width: '100%',

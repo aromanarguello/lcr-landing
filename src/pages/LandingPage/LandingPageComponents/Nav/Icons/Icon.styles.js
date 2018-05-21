@@ -3,7 +3,8 @@ export const styles = {
         color: 'rgb(35,64,130)',
         fontWeight: 'bold',
         display: 'flex',
-        marginRight: '10px',
-        marginLeft: '17px'
+        marginRight: 10,
+        marginLeft: 17,
+        borderRadius: 50,
     }
 }

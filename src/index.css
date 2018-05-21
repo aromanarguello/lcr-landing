@@ -19,21 +19,25 @@
 
 #servicesContainer {
   width: 100%;
-  height: 1000px;
+  min-height: 1000px;
 }
 
 #scheduleHeaderContainer {
   width: 100%;
-  height: 200px;
+  height: 150px;
 }
 
-h3{
+h2 {
   margin: 0;
+  font-weight: 500;
 }
 
+h3,
 p {
   margin: 0;
+  font-weight: 300;
 }
+
 /* #footerContainer {
   width: 100%;
   height: 400px;
@@ -41,4 +45,8 @@ p {
 
 body {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }

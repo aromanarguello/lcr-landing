@@ -6,12 +6,11 @@ const NavBar = () => {
     return (
         <div id='navBarContainer' style={styles.navBarContainer}>
             <ul style={styles.navLinks}>
-                <li style={styles.navLinkItems}>Bienvenidos</li>
-                <li style={styles.navLinkItems}>Horarios</li>
-                <li style={styles.navLinkItems}>Sucursales</li>
-                <li style={styles.navLinkItems}>Contactenos</li>
+                <li><a style={styles.navLinkItems} href="#servicesContainer">Horarios</a></li>
+                <li><a style={styles.navLinkItems} href="#">Sucursales</a></li>
+                <li><a style={styles.navLinkItems} href="#footerContainer">Contactenos</a></li>
             </ul>
-            <NavBarButton />
+            {/* <NavBarButton /> */}
         </div>
     )
 }

@@ -9,31 +9,7 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-
-
-const scheduleData = [
-    {
-        name: 'Central',
-        tel: '1(800)-333-333',
-        fax: '+505-2254-3099',
-        location: 'Crt. a Masaya',
-        schedule: '6:30 AM - 5:00 PM'
-    },
-    {
-        name: 'Crt. Sur',
-        tel: '1(800)-333-333',
-        fax: '+505-2254-3099',
-        location: 'Crt. a Masaya',
-        schedule: '6:30 AM - 5:00 PM'
-    },
-    {
-        name: 'Bolonia',
-        tel: '1(800)-333-333',
-        fax: '+505-2254-3099',
-        location: 'Crt. a Masaya',
-        schedule: '6:30 AM - 5:00 PM'
-    }
-]
+import { ScheduleData } from './ScheduleData'
 
 class ScheduleCards extends Component {
   constructor(props){
@@ -43,6 +19,7 @@ class ScheduleCards extends Component {
       elevationNumber: 0,
     }
   this.handleHover = this.handleHover.bind(this)
+  this.handleFadeOut = this.handleFadeOut.bind(this)
   }
   handleHover() {
     this.setState({
@@ -60,13 +37,13 @@ class ScheduleCards extends Component {
       <Grid container className={classes.root} spacing={16}>
         <Grid item xs={12}>
           <Grid container className={classes.demo} justify="center" spacing={Number(this.state.spacing)}>
-            {scheduleData.map(value => (
+            {ScheduleData.map(value => (
               <Grid key={value} item>
                 <Paper className={classes.paper} 
-                       style={styles.typography} 
-                       elevation={6}>
+                       style={styles.typography}
+                       elevation={7}>
                 <Typography style={styles.text} >
-                    <h1>{value.name}</h1>
+                    <h2>{value.name}</h2>
                 </Typography>
                 <Typography style={styles.text} >
                     <h3>{value.tel}</h3>
@@ -78,7 +55,7 @@ class ScheduleCards extends Component {
                     <p>{value.schedule}</p>
                 </Typography>
                 <Typography style={styles.text} >
-                    {value.location}
+                    <p>{value.location}</p>
                     <div>
                       <iframe frameBorder="0" 
                         src="https://www.google.com/maps/embed/v1/place?q=40.7127837,-74.0059413&amp;key=AIzaSyCc3zoz5TZaG3w2oF7IeR-fhxNXi8uywNk">
