@@ -9,7 +9,7 @@ export const styles = {
         color: 'white',
         fontSize: 18,
         justifyContent: 'center',
-
+        alignItems: 'center'
     },
 
     navLinks: {
@@ -18,7 +18,8 @@ export const styles = {
         alignSelf: 'center',
         display: 'flex',
         justifyContent: 'center',
-        padding: 0
+        padding: 0,
+        margin: 0
 
     },
 

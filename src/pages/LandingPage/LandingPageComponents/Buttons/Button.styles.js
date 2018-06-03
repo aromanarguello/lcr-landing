@@ -13,3 +13,18 @@ export const styles = {
         marginRight: 350,
     }
 }
+
+export const style = theme => ({
+    button: {
+      margin: 0
+    },
+    leftIcon: {
+      marginRight: theme.spacing.unit,
+    },
+    rightIcon: {
+      marginLeft: theme.spacing.unit,
+    },
+    iconSmall: {
+      fontSize: 20,
+    },
+  });

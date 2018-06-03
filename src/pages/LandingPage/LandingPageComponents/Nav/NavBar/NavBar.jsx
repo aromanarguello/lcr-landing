@@ -1,4 +1,5 @@
 import React from 'react'
+import injectSheets from 'react-jss'
 import { styles } from './Navbar.styles'
 import NavBarButton from '../../Buttons/NavButton'
 
@@ -15,4 +16,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default injectSheets(styles)(NavBar)

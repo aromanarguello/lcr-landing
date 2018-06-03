@@ -1,9 +1,9 @@
 export const styles = {
     footHeaderContainer: {
         width: '100%',
-        height: '500px',
+        height: 600,
         backgroundColor: '#354353',
-        // backgroundColor: 'white',
+        justifyContent: 'space-evenly',
         display: 'flex',
         alignItems: 'center',
         color: 'white',
@@ -19,4 +19,9 @@ export const styles = {
         height: '600px',
         backgroundColor: 'white',
     },
+    
+    microscopeImage: {
+        width: 'auto',
+        height: '90%',    
+    }
 }

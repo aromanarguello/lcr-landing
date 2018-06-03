@@ -9,7 +9,6 @@ import LocationCard from './Cards/LocationCard'
 
 class Nav extends Component {
 
-
 render() {
         return (
             <div id='headerContainer'>
@@ -24,4 +23,4 @@ render() {
         );
     }
 }
-export default Nav
+export default Nav;
