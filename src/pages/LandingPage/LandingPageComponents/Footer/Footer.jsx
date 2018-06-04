@@ -7,7 +7,7 @@ class Footer extends Component {
         return (
             <div id="footerContainer" style={styles.footHeaderContainer}>
                 <ContactForm />
-                <img src={Microscope} style={styles.microscopeImage} />
+                {/* <img src={Microscope} style={styles.microscopeImage} /> */}
             </div>
         )
     }

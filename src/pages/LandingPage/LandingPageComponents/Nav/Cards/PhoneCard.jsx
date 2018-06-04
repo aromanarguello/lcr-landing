@@ -31,9 +31,9 @@ class PhoneCard extends Component {
     return (
       <div>
         <Paper className={this.props.classes.root}
-              onMouseEnter={this.handleHover}
-              onMouseLeave={this.handleFadeOut}
-              elevation={this.state.elevationNumber}>
+               onMouseEnter={this.handleHover}
+               onMouseLeave={this.handleFadeOut}
+               elevation={this.state.elevationNumber}>
           <Typography variant="headline" component="h3">
             Oficina Central:
           </Typography>

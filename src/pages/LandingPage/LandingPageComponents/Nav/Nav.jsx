@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import Logo from '../../../../img/SmallLogo.png'
 import { styles } from './Nav.styles'
 import PhoneIcon from './Icons/Phone'

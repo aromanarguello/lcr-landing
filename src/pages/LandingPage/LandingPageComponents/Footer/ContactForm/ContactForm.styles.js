@@ -1,6 +1,6 @@
 export const style = {
     inputLines: {
-      width: '300px',
+      width: '400px',
       height: 45
     },
     textArea: {
@@ -8,10 +8,15 @@ export const style = {
       height: 150
     },
     form: {
-      marginRight: '40px'
+      marginLeft: '50px'
     },
     sendButton: {
       margin: '0',
-      justifySelf: 'flex-end'
+    },
+
+    sendButtonContainer: {
+      width: '100%',
+      display: 'flex',
+      justifyContent: 'flex-end'
     }
   }

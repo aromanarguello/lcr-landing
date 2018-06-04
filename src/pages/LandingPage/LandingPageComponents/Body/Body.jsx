@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Image from '../../../../img/dnaart.jpg'
 import Text from './Text'
 
